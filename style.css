@@ -1,0 +1,137 @@
+/***********
+**GENERAL
+***********/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.right {
+  float: right;
+}
+
+/***********
+**TOP PART
+***********/
+.top {
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(bg-cover.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.budget {
+  position: absolute;
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.budget__title {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 30px;
+}
+
+.budget__value {
+  font-weight: 300;
+  font-size: 46px;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.budget__income {
+  margin-bottom: 10px;
+  background-color: #28b9b5;
+}
+
+.budget__expense {
+  background-color: #ff5049;
+}
+
+/***********
+**BTM PART
+***********/
+.add {
+}
+.add__container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  margin: 60px auto;
+  width: 1000px;
+}
+
+.income {
+  float: left;
+  width: 475px;
+  margin-right: 50px;
+}
+
+.expense {
+  float: left;
+  width: 475px;
+}
+
+.income__title {
+  color: #28b9b5;
+}
+.expense__title {
+  color: #ff5049;
+}
+
+/***********
+**LIST
+***********/
+.right {
+  float: right;
+}
+.red {
+  color: #ff5049 !important;
+}
+.red-focus:focus {
+  border: 1px solid #ff5049 !important;
+}
+
+.item {
+  padding: 13px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.item:first-child {
+  border-top: 1px solid #e7e7e7;
+}
+.item:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.item__description {
+  float: left;
+}
+
+.item__value {
+  float: left;
+  transition: transform 0.3s;
+}
+
+.item__delete {
+  float: left;
+}
+.item__percentage {
+  float: left;
+  margin-left: 20px;
+}
