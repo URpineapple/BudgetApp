@@ -269,11 +269,11 @@ var UIController = (function () {
 
             now = new Date();
 
-            months = ['January', 'Feburary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
             month = now.getMonth();
 
             year = now.getFullYear();
-            document.querySelector(DOMstrings.dateLabel).textContent = months[month] + ' ' + year;
+            document.querySelector(DOMstrings.dateLabel).textContent = months[month] + ', ' + year;
         },
 
         changedType: function () {
