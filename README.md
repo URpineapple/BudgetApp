@@ -7,4 +7,5 @@ This budget app allows the visitor to:
 * display the percentage of each expense
 * delete any income and expense 
 
+![Screenshot](Budgetapp-photo.PNG)
 
