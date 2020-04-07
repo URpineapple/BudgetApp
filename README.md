@@ -1,4 +1,4 @@
-# BudgetApp.github.io
+# VanillaJS Budget Web Application
 This project presents a budget application with GitHub pages. The original idea comes from the Udemy course of Jonas Schmedtmann. 
 
 This budget app allows the visitor to:
